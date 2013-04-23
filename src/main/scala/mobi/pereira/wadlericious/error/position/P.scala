@@ -1,8 +1,8 @@
-package mobi.pereira.justplayin.error.position
+package mobi.pereira.wadlericious.error.position
 
-import mobi.pereira.justplayin.ast.Position
-import mobi.pereira.justplayin.Monad
-import mobi.pereira.justplayin.error.Maybe
+import mobi.pereira.wadlericious.ast._
+import mobi.pereira.wadlericious.error.Maybe
+import mobi.pereira.wadlericious.Monad
 
 case class P[+A](v: Position => Maybe[A]) extends Monad[A, P] {
 

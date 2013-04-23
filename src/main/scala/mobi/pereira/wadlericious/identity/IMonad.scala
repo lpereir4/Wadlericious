@@ -1,6 +1,6 @@
-package mobi.pereira.justplayin.identity
+package mobi.pereira.wadlericious.identity
 
-import mobi.pereira.justplayin.Monad
+import mobi.pereira.wadlericious.Monad
 
 /**
  * Identity monad

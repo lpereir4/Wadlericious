@@ -1,6 +1,6 @@
-package mobi.pereira.justplayin.identity
+package mobi.pereira.wadlericious.identity
 
-import mobi.pereira.justplayin.ast._
+import mobi.pereira.wadlericious.ast._
 
 package object value {
 

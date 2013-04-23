@@ -1,4 +1,4 @@
-package mobi.pereira.justplayin
+package mobi.pereira.wadlericious
 
 trait Monad[+A, M[_]] {
 

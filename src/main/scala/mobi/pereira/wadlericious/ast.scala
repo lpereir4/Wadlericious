@@ -1,4 +1,4 @@
-package mobi.pereira.justplayin
+package mobi.pereira.wadlericious
 
 package object ast {
 
@@ -7,7 +7,7 @@ package object ast {
   case class Position(p: Int) {
     override def toString: String = p match {
       case -1 => "Unknown"
-      case _ => "#"+String.valueOf(p)
+      case _ => "#" + String.valueOf(p)
     }
   }
 

@@ -9,3 +9,5 @@ scalaVersion := "2.10.1"
 
 scalacOptions ++= "-unchecked"::"-deprecation"::Nil
 
+libraryDependencies += "org.scalatest" %% "scalatest" % "1.9.1"
+

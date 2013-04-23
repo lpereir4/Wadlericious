@@ -1,6 +1,6 @@
-package mobi.pereira.justplayin.error
+package mobi.pereira.wadlericious.error
 
-import mobi.pereira.justplayin.ast._
+import mobi.pereira.wadlericious.ast._
 
 package object value {
 

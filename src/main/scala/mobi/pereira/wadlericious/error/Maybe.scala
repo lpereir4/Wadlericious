@@ -1,6 +1,6 @@
-package mobi.pereira.justplayin.error
+package mobi.pereira.wadlericious.error
 
-import mobi.pereira.justplayin.Monad
+import mobi.pereira.wadlericious.Monad
 
 trait Maybe[+A] extends Monad[A, Maybe]
 

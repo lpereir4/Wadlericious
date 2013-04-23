@@ -1,4 +1,4 @@
-package mobi.pereira.justplayin
+package mobi.pereira.wadlericious
 
 import ast._
 import error.position.P

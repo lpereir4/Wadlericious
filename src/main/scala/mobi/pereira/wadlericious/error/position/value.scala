@@ -1,8 +1,7 @@
-package mobi.pereira.justplayin.error.position
+package mobi.pereira.wadlericious.error.position
 
-import mobi.pereira.justplayin.ast._
-import mobi.pereira.justplayin.Monad
-import mobi.pereira.justplayin.error.{Success, Failure}
+import mobi.pereira.wadlericious.ast._
+import mobi.pereira.wadlericious.error.{Success, Failure}
 
 package object value {
 
@@ -44,10 +43,10 @@ package object value {
     case Constant(n) => P((p: Position) => Success(Number(n)))
 
     case Addition(exp1, exp2) => for {
-        e1 <- evaluate(exp1, environment)
-        e2 <- evaluate(exp2, environment)
-        r <- e1.add(e2)
-      } yield r
+      e1 <- evaluate(exp1, environment)
+      e2 <- evaluate(exp2, environment)
+      r <- e1.add(e2)
+    } yield r
 
     case Lambda(name, exp) => P((p: Position) => Success(Function(x => evaluate(exp, (name, x) :: environment))))
 
