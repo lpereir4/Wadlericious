@@ -2,7 +2,7 @@ package mobi.pereira.justplayin.error.position
 
 import mobi.pereira.justplayin.ast._
 import mobi.pereira.justplayin.Monad
-import mobi.pereira.justplayin.error.{Maybe, Success, Failure}
+import mobi.pereira.justplayin.error.{Success, Failure}
 
 package object value {
 
